@@ -22,6 +22,8 @@ For the motives behind my research and the interest in mathematical modeling in 
 
 Imagine a friend asks for the hour, you can read your analog watch but instead of saying it's 10:58 you say it's 11 o'clock, you could address the real value but you choose to approximate the hour to the nearest full hour, the answer was "good enough". On greater scale imagine you're trying to predict the weather. The "perfect" model would consider every single air molecule on Earth. But it is unachievable so meteorologists use approximations because they are "Good enough" (and yet we find a downpour when it is supposed to be sunny).
 
+<img width="1200" height="1200" alt="If-You-See-a-40-Chance-of-Rain-This-is-What-It-Means-1200x1200-1" src="https://github.com/user-attachments/assets/b5be5820-ce72-4ed8-aed1-f8b452bbf576" />
+
 Chemistry works on the same principle, >90% of the achievements are based on theories and approximations and molecules are the basics behind it. When chemists study molecules, the "perfect" model (grabbed from quantum mechanics) is incredibly complex. So we use approximations, since simpler mathematical models that give us good enough answers to work with. However we are still working with the idea of symmetry which unfortunately does require as much accuracy as possible.
 
 ### What Does "Symmetry" Mean in Chemistry?
@@ -31,6 +33,8 @@ Imagine working with a metal cube that has the same look in all faces, if you ro
 - **Octahedral** (like a 6-sided dice): 6 ligands (atoms or molecules) arranged around a central metal
 - **Tetrahedral** (like a pyramid): 4 ligands arranged around a central metal
 - **Cubic** (like a cube): 8 ligands arranged around a central metal
+
+<img width="1024" height="576" alt="xxewzsjdib" src="https://github.com/user-attachments/assets/74c22987-52af-4dc6-ae32-e7d14b8fe801" />
 
 So far ideally we should be able to understand the behavior of it except by the small problem...
 
