@@ -3,6 +3,7 @@ Research made for understanding the purpose of the 5th power rule and the useful
 ## About Me
 <div align="center">
 <img width="50%" height="50%" alt="SAM_0009" src="https://github.com/user-attachments/assets/bd0babb6-93ed-4bb7-9b2c-6ccde2de30dc" />
+</div>
 
 My name is Luis Trejo, as of today I am pursuing my bachelors degree in Chemistry with minors on Mathematics and Biological Sciences. During this studies I came across physical chemistry and Inorganic Chemistry courses, dedicated intensively on the behavior of molecules as well as the energy splitting that gives out the common and known colors of reactions we are used to see behind "classic" science experiments. This gave me a huge interest on understanding the behavior of this molecules when trying to achieve this colors, getting involved in terms such as molecular symmetry, wavefunctions, vectors, and coordinates giving me a major focuse on molecular models to predict reactions. This topic can be complex to understand for which I prepared by taking the following math courses that allowed me to understand the concepts behind this branches of theoretical chemistry:
 
@@ -25,6 +26,7 @@ Imagine a friend asks for the hour, you can read your analog watch but instead o
 
 <div align="center">
 <img width="50%" height="50%" alt="If-You-See-a-40-Chance-of-Rain-This-is-What-It-Means-1200x1200-1" src="https://github.com/user-attachments/assets/b5be5820-ce72-4ed8-aed1-f8b452bbf576" />
+</div>
 
 Chemistry works on the same principle, >90% of the achievements are based on theories and approximations and molecules are the basics behind it. When chemists study molecules, the "perfect" model (grabbed from quantum mechanics) is incredibly complex. So we use approximations, since simpler mathematical models that give us good enough answers to work with. However we are still working with the idea of symmetry which unfortunately does require as much accuracy as possible.
 
@@ -38,6 +40,7 @@ Imagine working with a metal cube that has the same look in all faces, if you ro
 
 <div align="center">
 <img width="50%" height="50%" alt="xxewzsjdib" src="https://github.com/user-attachments/assets/74c22987-52af-4dc6-ae32-e7d14b8fe801" />
+</div>
 
 So far ideally we should be able to understand the behavior of it except by the small problem...
 
