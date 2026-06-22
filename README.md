@@ -13,4 +13,11 @@ My name is Luis Trejo, as of today I am pursuing my bachelors degree in Chemistr
 - Physical Chemistry II
 - Mathematical Modeling (currently being taken)
 
-The idea behind my research is to give a meaning to the theoretical models, but these models are often optimized into "ideal" forms that don't perfectly match real life. This is why I'm fascinated by molecular symmetry approximations, especially in inorganic chemistry, where we work with coordination metals.
+The idea behind my research is to give a meaning to the theoretical models, but these models are often optimized into "ideal" forms that don't perfectly match real life. This is why I'm fascinated by molecular symmetry approximations, especially in inorganic chemistry, where we work with coordination metals and a very important concept named "The Crystal Field Theory".
+
+For the motives behind my research and the interest in mathematical modeling in this area please look at the following video:
+
+(Inserta video con feedback de mis compañeros que aun no tengo aqui._.)
+
+## What is the Crystal Field Theory?
+
