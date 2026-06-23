@@ -84,8 +84,8 @@ For this we must pretend each ligand is just a tiny, negatively charged point, t
 
 <div align="center">
 <img width="50%" height="50%" alt="electrostatic-force-equation" src="https://github.com/user-attachments/assets/1f540163-715a-4dc1-9f19-470283c19c6d" />
-</div>
 (In case anyone forgot)
+</div>
 
 With this we can use the math to predict how the electron energies split
 And that's it right? Well... no, it is a good approximation but it doesn't give the full image. Because ligands aren't really point charges, but rather complex molecules with their own electrons. But it is "good enough" to predict patterns.
@@ -97,3 +97,10 @@ First we need spherical coordinates (r, θ, φ)
 <img width="50%" height="50%" alt="Screen Shot 2026-06-22 at 10 32 15 PM" src="https://github.com/user-attachments/assets/785ef98a-05ea-40da-98c7-f87f847b0048" />
 <img width="50%" height="50%" alt="Screen Shot 2026-06-22 at 10 35 48 PM" src="https://github.com/user-attachments/assets/f5f3f13d-e851-4d43-9be7-a00ac0aadea0" />
 </div>
+
+Well this same idea can be applied for atoms in this concept since we need to know exactly where each ligand is located around the metal. Using this idea we correlate
+
+- **r** = distance from the metal (bond length)
+- **θ** = angle from the z-axis
+- **φ** = angle from the x-axis
+
