@@ -83,7 +83,9 @@ But how can we take this for our modeling?
 For this we must pretend each ligand is just a tiny, negatively charged point, then we calculate how these point charges affect the electrons on the metal using good Coulomb's Law
 
 <div align="center">
+
 $$F = \frac{k q_1 q_2}{r^2}$$
+
 </div>
 (In case anyone forgot)
 
