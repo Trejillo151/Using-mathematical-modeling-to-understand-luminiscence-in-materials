@@ -144,18 +144,33 @@ $$
 </div>
 
 And each term represents a greater complexity...
-Term 0 (k=0): Perfect sphere 
-Term 1 (k=1): Dipole 
-Term 2 (k=2): Quadrupole
-Term 3 (k=3): Octupole
-Term 4 (k=4): Hexadecapole
 
 While we could work with Taylor series "Good enough" we level it up a notch by making it 3D with Laplace and now that we work with volumes we have:
 
 <div align="center">
   
 $$
-1/|r - R| = Σ (4π/(2k+1)) * (rᵏ/Rᵏ⁺¹) * Yₖᑫ*(θ,φ) * Yₖᑫ(θ',φ')
+\frac{1}{|\mathbf{r} - \mathbf{R}|} = \sum_{k=0}^{\infty} \sum_{q=-k}^{k} \frac{4\pi}{2k+1} \frac{r^k}{R^{k+1}} Y_{kq}^*(\theta, \phi) Y_{kq}(\theta', \phi')
 $$
 
+</div>
+
+If it sounds confusing... it's because it is, so this can be helpful in understanding this concept:
+
+https://www.youtube.com/watch?v=cAARX18-74g
+
+Then with Laplace we expand into Spherical Harmonics, the first physical chemistry concept that we need for derivating
+
+**What Are Spherical Harmonics?**
+
+Spherical harmonics (Yₖᑫ) are special functions that describe how something varies over a sphere. They're the 3D equivalent of the sine and cosine
+
+**in order to see them better think of them like this:**
+- Y₀⁰: A perfect sphere (like a ping pong ball)
+- Y₁⁰: Like a peanut shape (dipole)
+- Y₂⁰: Like a dumbbell shape (quadrupole)
+- Higher k values: More complex, petal-like shapes
+
+<div align="center">
+<img width="50%" height="50%" alt="Complex_Spherical_Harmonics_Figure_Table_Complex_Radial_Magnitude" src="https://github.com/user-attachments/assets/fba6c682-ee7a-42c1-b684-00dedfc81a7c" />
 </div>
