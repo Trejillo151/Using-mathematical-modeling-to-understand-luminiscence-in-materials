@@ -130,3 +130,16 @@ f(x) = f(a) + f'(a)(x-a) + (f''(a)/2!)(x-a)² + (f'''(a)/3!)(x-a)³ + ...
 
 Example: e^x at x=0
 e^x = 1 + x + x²/2! + x³/3! + x⁴/4! + ...
+
+##In 3D, Laplace expansion does the same thing for functions on a sphere:
+
+<div align="center">
+1/|r - R| = (1/R) + (r/R²)cos(θ) + (r²/R³)(3cos²(θ)-1)/2 + ...
+</div>
+
+And each term represents a greater complexity...
+Term 0 (k=0): Perfect sphere (like a ping pong ball)
+Term 1 (k=1): Dipole (like a peanut shape)
+Term 2 (k=2): Quadrupole (like a dumbbell shape)
+Term 3 (k=3): Octupole (more complex)
+Term 4 (k=4): Hexadecapole (even more complex!)
