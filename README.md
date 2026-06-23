@@ -108,3 +108,11 @@ Well this same idea can be applied for atoms in this concept since we need to kn
 
 Now we can actually start working with physics
 $$F = \frac{k q_1 q_2}{r^2}$$
+
+From Coulomb's law we can know how charged particles interact. applied to our topic, we use this to calculate the force between:
+
+- The negatively charged ligands (q₁)
+- The electrons on the metal (q₂)
+- The distance between them (r)
+
+
