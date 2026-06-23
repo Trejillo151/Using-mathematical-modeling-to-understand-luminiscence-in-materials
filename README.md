@@ -125,11 +125,13 @@ As very straightforward as Coulomb's law seems it can be very complex to work wi
 Any smooth function f(x) can be written as:
 
 <div align="center">
-$ f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots $
+  
+\[f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n\]
+
 </div>
 
 
-##In 3D, Laplace expansion does the same thing for functions on a sphere:
+## In 3D, Laplace expansion does the same thing for functions on a sphere:
 
 <div align="center">
 $$ 1/|r - R| = (1/R) + (r/R²)cos(θ) + (r²/R³)(3cos²(θ)-1)/2 + ... $$
