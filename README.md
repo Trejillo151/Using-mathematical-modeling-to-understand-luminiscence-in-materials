@@ -175,4 +175,44 @@ Spherical harmonics (Yₖᑫ) are special functions that describe how something 
 <img width="50%" height="50%" alt="Complex_Spherical_Harmonics_Figure_Table_Complex_Radial_Magnitude" src="https://github.com/user-attachments/assets/fba6c682-ee7a-42c1-b684-00dedfc81a7c" />
 </div>
 
-Here is the charm though... the reason why we need this harmonics 
+Here is the charm though... the reason why we need this harmonics is because this expansion allows us to grab for all infinite values, we want to cover them all. In very short terms we can say that we use series, harmonics and expansions to get a full set of values, we cover it all.
+
+Now we can grab it and actually work on Crystal Field Theory and the so called fifth power rule... (Finally)
+
+## Why does it work?
+
+For d-electrons (which have angular momentum quantum number l = 2):
+  
+Before reaching this part we must begin with a CRUCIAL definition, "k". What is this? This are tensors or ranks
+
+##What is a tensor?
+
+Is just a fancy word for something that transforms in a specific way when you rotate your coordinate system. it works in the format of ranks where:
+
+Scalar (rank 0)	Just one number, like temperature
+Vector (rank 1)	A list of numbers pointing in space, like	Velocity
+Tensor (rank 2)	A grid of numbers like pressure or inertia
+Rank-k tensor	A multi-dimensional grid like our spherical harmonics
+
+With that in mind...
+
+1. We have selection rules from quantum mechanics which tell us that only certain k values can contribute:
+   - k = 0, 2, 4 (all even numbers up to 2l)
+   - k = 1, 3, 5 (odd values) are forbidden
+    
+2. The k=0 term just shifts all energies equally (no change at all)
+   - Scale: 1/R¹
+
+3. The k=2 term gives a 1/R³ dependence
+   - This is the "quadrupole" contribution that we find in tetrahedral molecules
+
+4. The k=4 term gives a 1/R⁵ dependence
+   - This is the "hexadecapole" contribution (our 5th power rule for octahedrals)
+  
+Finally... we can actually derivate this rule
+
+## The fifth power rule
+
+### What Is the 5th Power Rule?
+
+
