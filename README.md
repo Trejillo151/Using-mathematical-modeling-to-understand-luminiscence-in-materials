@@ -149,3 +149,13 @@ Term 1 (k=1): Dipole
 Term 2 (k=2): Quadrupole
 Term 3 (k=3): Octupole
 Term 4 (k=4): Hexadecapole
+
+While we could work with Taylor series "Good enough" we level it up a notch by making it 3D with Laplace and now that we work with volumes we have:
+
+<div align="center">
+  
+$$
+1/|r - R| = Σ (4π/(2k+1)) * (rᵏ/Rᵏ⁺¹) * Yₖᑫ*(θ,φ) * Yₖᑫ(θ',φ')
+$$
+
+</div>
