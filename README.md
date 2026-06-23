@@ -104,3 +104,5 @@ Well this same idea can be applied for atoms in this concept since we need to kn
 - **θ** = angle from the z-axis
 - **φ** = angle from the x-axis
 
+Now we can actually start working with physics
+$$F = \frac{k q_1 q_2}{r^2}$$
