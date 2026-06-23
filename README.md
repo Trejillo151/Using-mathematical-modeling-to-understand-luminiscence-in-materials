@@ -121,12 +121,11 @@ All this leads us to use a model called **PCEM** (Point Charge Electrostatic Mod
 
 As very straightforward as Coulomb's law seems it can be very complex to work with, so the solution for it is to expand it on simpler terms... This achieved by the Laplace expansion and Taylor series. Why this? Coulomb's law depends on both distance and direction and we want to cover them independently. So the expansion makes it an infinite series where we get a radial and angular parts
 
-##In 1D, Taylor series says:
+## In 1D, Taylor series says:
 Any smooth function f(x) can be written as:
 
-
 <div align="center">
-$f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots$
+$ f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots $
 </div>
 
 
