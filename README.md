@@ -125,7 +125,9 @@ As very straightforward as Coulomb's law seems it can be very complex to work wi
 Any smooth function f(x) can be written as:
 
 <div align="center">
+  
 f(x) = f(a) + f'(a)(x-a) + (f''(a)/2!)(x-a)² + (f'''(a)/3!)(x-a)³ + ...
+  
 </div>
 
 Example: e^x at x=0
