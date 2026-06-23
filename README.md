@@ -76,3 +76,24 @@ This is also a great explanation for the color change in metallic complexes
 <div align="center">
 <img width="50%" height="50%" alt="SAM_0012" src="https://github.com/user-attachments/assets/d091ec9e-1e87-4493-838e-b442285c8fc3" />
 </div>
+(Yes, I took this photo)
+
+But how can we take this for our modeling?
+
+For this we must pretend each ligand is just a tiny, negatively charged point, then we calculate how these point charges affect the electrons on the metal using good Coulomb's Law
+
+<div align="center">
+<img width="50%" height="50%" alt="electrostatic-force-equation" src="https://github.com/user-attachments/assets/1f540163-715a-4dc1-9f19-470283c19c6d" />
+</div>
+(In case anyone forgot)
+
+With this we can use the math to predict how the electron energies split
+And that's it right? Well... no, it is a good approximation but it doesn't give the full image. Because ligands aren't really point charges, but rather complex molecules with their own electrons. But it is "good enough" to predict patterns.
+
+So in order to get closer we now get to use tons of math... I would lie if I tell you it is gentle, but here is in the most simple terms that are possible to have:
+
+First we need spherical coordinates (r, θ, φ)
+<div align="center">
+<img width="50%" height="50%" alt="Screen Shot 2026-06-22 at 10 32 15 PM" src="https://github.com/user-attachments/assets/785ef98a-05ea-40da-98c7-f87f847b0048" />
+<img width="50%" height="50%" alt="Screen Shot 2026-06-22 at 10 35 48 PM" src="https://github.com/user-attachments/assets/f5f3f13d-e851-4d43-9be7-a00ac0aadea0" />
+</div>
