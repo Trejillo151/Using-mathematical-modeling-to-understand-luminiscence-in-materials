@@ -174,3 +174,5 @@ Spherical harmonics (Yₖᑫ) are special functions that describe how something 
 <div align="center">
 <img width="50%" height="50%" alt="Complex_Spherical_Harmonics_Figure_Table_Complex_Radial_Magnitude" src="https://github.com/user-attachments/assets/fba6c682-ee7a-42c1-b684-00dedfc81a7c" />
 </div>
+
+Here is the charm though... the reason why we need this harmonics 
