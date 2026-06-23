@@ -138,8 +138,8 @@ e^x = 1 + x + x²/2! + x³/3! + x⁴/4! + ...
 </div>
 
 And each term represents a greater complexity...
-Term 0 (k=0): Perfect sphere (like a ping pong ball)
-Term 1 (k=1): Dipole (like a peanut shape)
-Term 2 (k=2): Quadrupole (like a dumbbell shape)
-Term 3 (k=3): Octupole (more complex)
-Term 4 (k=4): Hexadecapole (even more complex!)
+Term 0 (k=0): Perfect sphere 
+Term 1 (k=1): Dipole 
+Term 2 (k=2): Quadrupole
+Term 3 (k=3): Octupole
+Term 4 (k=4): Hexadecapole
