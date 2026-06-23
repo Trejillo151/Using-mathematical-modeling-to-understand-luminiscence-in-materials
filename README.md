@@ -1,4 +1,5 @@
 # Where is the Math in... Molecular Symmetry Approximations
+By: Trejo Aceves Luis Enrique
 Research made for understanding the purpose of the 5th power rule and the usefulness for approximating real behavior of materials
 ## About Me
 <div align="center">
@@ -46,3 +47,32 @@ So far ideally we should be able to understand the behavior of it except by the 
 
 ### The Problem with Perfect Symmetry
 
+Real molecules are never perfectly symmetrical. They bend, stretch, and wiggle. The ligands (the atoms surrounding the metal) might be slightly different sizes or at slightly different angles.
+
+So chemists have two choices:
+1. Do the exact math (which is incredibly difficult and time-consuming)
+2. Use approximations (trading accuracy but and give us "good enough" answers)
+
+## Part 2: The Core Concept - Crystal Field Theory (In simple terms)
+
+Now let's look at one specific approximation: **Crystal Field Theory**.
+
+### What Is Crystal Field Theory?
+
+Let's say we have a metal atom (imagine any metal but it would be better if it is on the d-block of the periodic table) with electrons orbiting around it. Around this metal, you have ligands, this ligands can be basically any atom that can be attracted by the metal, although normally it is preferred that it is an organic molecule (composed of carbon or nitrogen)
+
+But how How do these ligands affect the electrons?
+
+In an ideal world, all the electrons would have the same energy. But what really happens is that these ligands push and pull on the electrons, causing them to have higher or lower energy.
+
+These changes in energy is defined as crystal field splitting
+
+A simple way to explain this splitting is by the following video:
+
+https://www.youtube.com/watch?v=V1WSesBeURw
+
+This is also a great explanation for the color change in metallic complexes
+
+<div align="center">
+<img width="50%" height="50%" alt="SAM_0012" src="https://github.com/user-attachments/assets/d091ec9e-1e87-4493-838e-b442285c8fc3" />
+</div>
