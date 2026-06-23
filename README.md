@@ -136,7 +136,11 @@ $$
 ## In 3D, Laplace expansion does the same thing for functions on a sphere:
 
 <div align="center">
-$$ 1/|r - R| = (1/R) + (r/R²)cos(θ) + (r²/R³)(3cos²(θ)-1)/2 + ... $$
+  
+$$
+\frac{1}{|\mathbf{r} - \mathbf{R}|} = \frac{1}{R} + \frac{r}{R^2}\cos(\theta) + \frac{r^2}{R^3}\frac{3\cos^2(\theta)-1}{2} + \cdots
+$$
+
 </div>
 
 And each term represents a greater complexity...
