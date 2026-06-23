@@ -126,7 +126,9 @@ Any smooth function f(x) can be written as:
 
 <div align="center">
   
-\[f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n\]
+$$
+f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
+$$
 
 </div>
 
