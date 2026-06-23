@@ -115,4 +115,18 @@ From Coulomb's law we can know how charged particles interact. applied to our to
 - The electrons on the metal (q₂)
 - The distance between them (r)
 
+In case anyone is interested into a deeper meaning for Coulomb's law feel free to check this very well explained video for it. https://www.youtube.com/watch?v=kCp5yYjo9zE
 
+All this leads us to use a model called **PCEM** (Point Charge Electrostatic Model). And while we can remain with it as it is this can give us a good amount of information about the ligands... but not about the length. How can we fix this? With series and Harmonics (Buckle up... this will be awful, no more sweet terms)
+
+As very straightforward as Coulomb's law seems it can be very complex to work with, so the solution for it is to expand it on simpler terms... This achieved by the Laplace expansion and Taylor series. Why this? Coulomb's law depends on both distance and direction and we want to cover them independently. So the expansion makes it an infinite series where we get a radial and angular parts
+
+##In 1D, Taylor series says:
+Any smooth function f(x) can be written as:
+
+<div align="center">
+f(x) = f(a) + f'(a)(x-a) + (f''(a)/2!)(x-a)² + (f'''(a)/3!)(x-a)³ + ...
+</div>
+
+Example: e^x at x=0
+e^x = 1 + x + x²/2! + x³/3! + x⁴/4! + ...
