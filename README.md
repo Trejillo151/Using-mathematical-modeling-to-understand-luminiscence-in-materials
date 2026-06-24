@@ -331,18 +331,14 @@ Song, Z., & Liu, Q. (2022). Basic crystal field theory—A simple and useful too
 
 *   **Why I used it:** This paper was the primary inspiration for my project. It clearly explains how Crystal Field Theory connects molecular structure to the properties of luminescent materials (like those in LEDs). It allowed me to understand the real-world application of the 5th power rule and its breakdown in low-symmetry systems.
 
-The Organic Chemistry Tutor. (2021, January 3). *Crystal Field Theory* [Video]. YouTube. https://www.youtube.com/watch?v=V1WesBeURwI
+The Organic Chemistry Tutor. (2021, January 3). Crystal Field Theory [Video file]. Retrieved from https://www.youtube.com/watch?v=V1WSesBeURw
 
 *   **Why I used it:** For the visual and conceptual foundation I needed to understand Crystal Field Theory before diving into the math. It works well for explaining d-orbital splitting, ligands, and the basic idea of crystal field splitting in non-chemist-friendly terms.
 
-The Organic Chemistry Tutor. (2021, January 14). *Coulomb's Law* [Video]. YouTube. https://www.youtube.com/watch?v=kCfV6l1e7Z0
+The Organic Chemistry Tutor. (2021, January 21). Coulomb’s Law - net electric force & point charges [Video file]. Retrieved from https://www.youtube.com/watch?v=kCp5yYjo9zE
 
 *   **Why I used it:** The basics behind the PCEM demands Coulomb's Law, which is the starting point for the entire mathematical derivation. I referenced it to explain the electrostatic interaction between ligands and metal electrons.
 
-Khan Academy. (2016, May 5). *Spherical Coordinates* [Video]. YouTube. https://www.youtube.com/watch?v=KZ6D7F97BFY
-
-*   **Why I used it:** I used this video to understand spherical coordinates (r, θ, φ), which are essential for describing ligand positions in 3D space. It helped me explain why we need these coordinates before expanding Coulomb's law.
-
-3Blue1Brown. (2018, May 6). *Taylor Series* [Video]. YouTube. https://www.youtube.com/watch?v=3d6DsjIBzJ4
+Jeffrey Chasnov. (2018, July 10). Laplace expansion for computing determinants | Lecture 29 | Matrix Algebra for Engineers [Video file]. Retrieved from https://www.youtube.com/watch?v=cAARX18-74g
 
 *   **Why I used it:** To understand the core concept of series expansions, which is the mathematical trick we use to break down Coulomb's law into simpler terms. It's the foundation for understanding the Laplace expansion (4 years of college and it is the first time I actually got to understand it).
