@@ -228,3 +228,21 @@ $$
 Where:
 - **Δ** = energy splitting (how much the electron energies separate)
 - **R** = bond length (distance from metal to ligand)
+
+Ok... and for non chemists? What does that mean?
+Imagine you have a rubber band. If you stretch it the force changes... That's it
+
+The 5th power rule is like that
+
+- If the bond length changes by 1%, the energy splitting changes by about 5%
+- If the bond length changes by 10%, the energy splitting changes by about 61%!
+
+So small changes in molecule structure cause HUGE changes in properties
+
+All this for that? Yes, tiny yet complex... but now that we have the pieces we add them up together and derivate:D
+
+## But first... a very quick recap
+1. We start with the potential energy equation (Coulomb's law)
+2. We expand it using spherical harmonics (Laplace expansion)
+3. For d-electrons (the ones we care about in metals), only certain terms survive
+4. In octahedral symmetry (our "perfect" case), the terms that survive have a $ \(1/R^5\) $ dependence
