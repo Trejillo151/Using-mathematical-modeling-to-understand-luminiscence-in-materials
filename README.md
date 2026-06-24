@@ -265,6 +265,8 @@ $$
 
 </div>
 
+I know... sounds oversimplified, but if you are interested on the FULL derivation feel free to check the Hands-on section on my profile, for simplicity we are gonna assume it here alright? Cool... moving on:)
+
 And that's it right? Ideally yes, on perfect octahedral symmetry that is in fact all there can be... But real life is not perfectly symmetric, meaning we need to approximate to the ACTUAL values.
 
 In short... 
@@ -325,3 +327,22 @@ For previous knowledge it is important to clarify that in order to have the slig
 But overall it was a very fulfilling project, since now for future perspectives I want to apply these concepts to real materials. Specifically, I'm interested in how the 5th power rule can be used to predict the colors of luminescent materials for LED applications as well as seeing the behaviors of metallic complexes and the difference in color as proportion to this splitting of energies, for which I am currently attempting new complex synthesis... stay tuned for updates in species of complexes that we can use and understand.
 
 ## References
+Song, Z., & Liu, Q. (2022). Basic crystal field theory—A simple and useful tool to understand the structure-property relationship in luminescent materials. *Optical Materials: X*, *16*, 100189. https://doi.org/10.1016/j.omx.2022.100189
+
+*   **Why I used it:** This paper was the primary inspiration for my project. It clearly explains how Crystal Field Theory connects molecular structure to the properties of luminescent materials (like those in LEDs). It allowed me to understand the real-world application of the 5th power rule and its breakdown in low-symmetry systems.
+
+The Organic Chemistry Tutor. (2021, January 3). *Crystal Field Theory* [Video]. YouTube. https://www.youtube.com/watch?v=V1WesBeURwI
+
+*   **Why I used it:** For the visual and conceptual foundation I needed to understand Crystal Field Theory before diving into the math. It works well for explaining d-orbital splitting, ligands, and the basic idea of crystal field splitting in non-chemist-friendly terms.
+
+The Organic Chemistry Tutor. (2021, January 14). *Coulomb's Law* [Video]. YouTube. https://www.youtube.com/watch?v=kCfV6l1e7Z0
+
+*   **Why I used it:** The basics behind the PCEM demands Coulomb's Law, which is the starting point for the entire mathematical derivation. I referenced it to explain the electrostatic interaction between ligands and metal electrons.
+
+Khan Academy. (2016, May 5). *Spherical Coordinates* [Video]. YouTube. https://www.youtube.com/watch?v=KZ6D7F97BFY
+
+*   **Why I used it:** I used this video to understand spherical coordinates (r, θ, φ), which are essential for describing ligand positions in 3D space. It helped me explain why we need these coordinates before expanding Coulomb's law.
+
+3Blue1Brown. (2018, May 6). *Taylor Series* [Video]. YouTube. https://www.youtube.com/watch?v=3d6DsjIBzJ4
+
+*   **Why I used it:** To understand the core concept of series expansions, which is the mathematical trick we use to break down Coulomb's law into simpler terms. It's the foundation for understanding the Laplace expansion (4 years of college and it is the first time I actually got to understand it).
