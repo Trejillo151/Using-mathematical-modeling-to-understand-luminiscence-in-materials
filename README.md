@@ -264,3 +264,34 @@ $$
 $$
 
 </div>
+
+And that's it right? Ideally yes, on perfect octahedral symmetry that is in fact all there can be... But real life is not perfectly symmetric, meaning we need to approximate to the ACTUAL values.
+
+In short... 
+
+## Part 4: Adressing when the rule fails
+
+The 5th power rule works beautifully for perfect octahedral symmetry. But real molecules aren't perfect
+
+In a low symmetry environments (like garnets, nitrides, or distorted molecules), the rule breaks down because:
+
+<div align="center">
+  
+- The $k=2$ terms don't cancel out anymore
+- This adds a $1/R^3$ dependence
+
+So the energy splitting becomes:
+
+$$
+\Delta = A \cdot \frac{1}{R^3} + B \cdot \frac{1}{R^5}
+$$
+
+Where $A$ and $B$ are constants determined by the specific symmetry.
+
+</div>
+
+# Why does this matter? 
+
+This mix of 3rd and 5th power rules is what makes luminescent materials (like those used in LEDs and phosphors) work The colors they emit depend on exactly how these terms combine.
+
+Taken to a greater scale... this alone allows us to address for actual behavior of all types of octahedral molecules... without fancy equipment, without the an inmense use of money... with pure mathematical modeling.
