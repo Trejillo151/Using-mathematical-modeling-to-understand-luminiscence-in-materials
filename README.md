@@ -57,7 +57,7 @@ So chemists have two choices:
 
 Now let's look at one specific approximation: **Crystal Field Theory**.
 
-### What Is Crystal Field Theory?
+### Part 2: What Is Crystal Field Theory?
 
 Let's say we have a metal atom (imagine any metal but it would be better if it is on the d-block of the periodic table) with electrons orbiting around it. Around this metal, you have ligands, this ligands can be basically any atom that can be attracted by the metal, although normally it is preferred that it is an organic molecule (composed of carbon or nitrogen)
 
@@ -211,7 +211,7 @@ With that in mind...
   
 Finally... we can actually derivate this rule
 
-## The fifth power rule
+## Part 3: The fifth power rule
 
 ### What Is the 5th Power Rule?
 
@@ -239,7 +239,7 @@ The 5th power rule is like that
 
 So small changes in molecule structure cause HUGE changes in properties
 
-All this for that? Yes, tiny yet complex... but now that we have the pieces we add them up together and derivate:D
+All this for that? Yes, tiny yet complex... but now that we have the pieces we add them up together:D
 
 ## But first... a very quick recap
 1. We start with the potential energy equation (Coulomb's law)
@@ -247,12 +247,20 @@ All this for that? Yes, tiny yet complex... but now that we have the pieces we a
 3. For d-electrons (the ones we care about in metals), only certain terms survive
 4. In octahedral symmetry (our "perfect" case), the terms that survive have a fifth power rule dependence
 
-So we get this:
+So we get from this and a very excruciating derivation final energy splitting is:
 
 <div align="center">
   
+The final energy splitting is:
+
 $$
-B_{40} \propto \frac{\langle r^4 \rangle}{R^5}
+\Delta = \frac{2}{7}B_{40}
+$$
+
+Since $B_{40} \propto \langle r^4 \rangle / R^5$, we confirm:
+
+$$
+\Delta \propto \frac{1}{R^5}
 $$
 
 </div>
