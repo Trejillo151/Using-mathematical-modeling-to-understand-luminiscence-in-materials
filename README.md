@@ -275,13 +275,13 @@ The 5th power rule works beautifully for perfect octahedral symmetry. But real m
 
 In a low symmetry environments (like garnets, nitrides, or distorted molecules), the rule breaks down because:
 
-<div align="center">
-  
 - The $k=2$ terms don't cancel out anymore
 - This adds a $1/R^3$ dependence
 
 So the energy splitting becomes:
 
+<div align="center">
+  
 $$
 \Delta = A \cdot \frac{1}{R^3} + B \cdot \frac{1}{R^5}
 $$
@@ -290,8 +290,28 @@ Where $A$ and $B$ are constants determined by the specific symmetry.
 
 </div>
 
-# Why does this matter? 
+### Why does this matter? 
 
 This mix of 3rd and 5th power rules is what makes luminescent materials (like those used in LEDs and phosphors) work The colors they emit depend on exactly how these terms combine.
 
+<div align="center">
+  
+<img width="50%" height="50%" alt="Screen Shot 2026-06-24 at 12 00 26 AM" src="https://github.com/user-attachments/assets/7bda6fa3-35f0-4505-9f24-d51aa3d63a55" />
+
+This right here is the simplest yet explanatory definition of this asymmetry
+</div>
+
 Taken to a greater scale... this alone allows us to address for actual behavior of all types of octahedral molecules... without fancy equipment, without the an inmense use of money... with pure mathematical modeling.
+You still don't believe me? Check the article that made this whole article (and the decline of my mental health) possible.
+
+https://www.sciencedirect.com/science/article/pii/S2590147822000535
+
+## Conclusions
+
+My project explored the mathematical approximations behind molecular symmetry, focusing on the 5th power rule in Crystal Field Theory. The main findings are:
+
+- **Approximations are necessary** because perfect quantum mechanical calculations are too complex
+- **PCEM** (Point Charge Electrostatic Model) is the simplest useful approximation, and while it is not perfect it is "Good enough" for basic theory and understanding
+- **Spherical harmonics** (from calculus) allow us to separate radial and angular effects
+- For **octahedral symmetry**, the energy splitting depends on $1/R^5\$
+- And that realitically the rule becomes a mix of \(1/R^3\) and $1/R^5\$
