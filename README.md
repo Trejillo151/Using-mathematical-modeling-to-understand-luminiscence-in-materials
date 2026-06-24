@@ -185,7 +185,7 @@ For d-electrons (which have angular momentum quantum number l = 2):
   
 Before reaching this part we must begin with a CRUCIAL definition, "k". What is this? This are tensors or ranks
 
-##What is a tensor?
+## What is a tensor?
 
 Is just a fancy word for something that transforms in a specific way when you rotate your coordinate system. it works in the format of ranks where:
 
@@ -215,4 +215,14 @@ Finally... we can actually derivate this rule
 
 ### What Is the 5th Power Rule?
 
+In simple terms it is the energy splitting of electrons depends on the 5th power of the bond length.
 
+<div align="center">
+$$
+\Delta \propto \frac{1}{R^5}
+$$
+</div>
+
+Where:
+- **Δ** = energy splitting (how much the electron energies separate)
+- **R** = bond length (distance from metal to ligand)
