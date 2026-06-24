@@ -245,4 +245,14 @@ All this for that? Yes, tiny yet complex... but now that we have the pieces we a
 1. We start with the potential energy equation (Coulomb's law)
 2. We expand it using spherical harmonics (Laplace expansion)
 3. For d-electrons (the ones we care about in metals), only certain terms survive
-4. In octahedral symmetry (our "perfect" case), the terms that survive have a $ \(1/R^5\) $ dependence
+4. In octahedral symmetry (our "perfect" case), the terms that survive have a fifth power rule dependence
+
+So we get this:
+
+<div align="center">
+  
+$$
+B_{40} \propto \frac{\langle r^4 \rangle}{R^5}
+$$
+
+</div>
