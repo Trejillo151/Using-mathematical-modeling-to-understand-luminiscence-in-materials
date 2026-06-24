@@ -314,4 +314,14 @@ My project explored the mathematical approximations behind molecular symmetry, f
 - **PCEM** (Point Charge Electrostatic Model) is the simplest useful approximation, and while it is not perfect it is "Good enough" for basic theory and understanding
 - **Spherical harmonics** (from calculus) allow us to separate radial and angular effects
 - For **octahedral symmetry**, the energy splitting depends on $1/R^5\$
-- And that realitically the rule becomes a mix of \(1/R^3\) and $1/R^5\$
+- And that realistically the rule becomes a mix of $1/R^3\$ and $1/R^5\$
+
+The journey behind all this conceptualization was... not easy, the main and most important problem is that Chemistry by itself is already a complex and hard to swallow pill, even for us who dedicate to this have out hard time understanding concepts (some we even don't at all) so breaking it down to make it user friendly is quite the challenge, specially since if we break it down we sacrifice a lot of information. Other times we can just get lost on the way and some others we come across topics that we don't understand making them impossible to explain, I'm not even kidding... by the time i am writing this all the chemistry faculty told me that I cannot simplify it further... So what was my solution to get here?
+
+I started with basic chemistry concepts (what are ligands? what are d-orbitals? Elements that any major could understand) then worked my way up to the math. I found that watching YouTube videos first (visual learning) helped me understand the concepts, then I could focus on the mathematical details (Thank you "The Organic Chemistry Tutor"). And as a fool proof item I asked faculty for help in breaking down the concepts and feedback on having accurate explanations, for this I want to thank Doctor Jesus Alberto Lopez Dominguez and Doctor Fernando Belmont Bernal for the peer reviews, the explanations on topics and the help in choosing the works for explaining the previous text.
+
+For previous knowledge it is important to clarify that in order to have the slightest chance to understand all this calculus and physics courses are essential. Understanding Coulomb's Law, spherical coordinates, and Taylor expansions made the derivations understandable (The bare minimum at least). With the most challenging concept being spherical harmonics since both multivariable calculus and beginning of quantum mechanics are needed to understand it, even for me those were a huge challenge (And I am meant to have a paper that says I know what I'm doing in this area)
+
+But overall it was a very fulfilling project, since now for future perspectives I want to apply these concepts to real materials. Specifically, I'm interested in how the 5th power rule can be used to predict the colors of luminescent materials for LED applications as well as seeing the behaviors of metallic complexes and the difference in color as proportion to this splitting of energies, for which I am currently attempting new complex synthesis... stay tuned for updates in species of complexes that we can use and understand.
+
+## References
