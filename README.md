@@ -218,9 +218,11 @@ Finally... we can actually derivate this rule
 In simple terms it is the energy splitting of electrons depends on the 5th power of the bond length.
 
 <div align="center">
+  
 $$
 \Delta \propto \frac{1}{R^5}
 $$
+
 </div>
 
 Where:
