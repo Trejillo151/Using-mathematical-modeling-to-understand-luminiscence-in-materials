@@ -31,9 +31,9 @@ $$V = \sum_{L = 1}^{N} \frac{Z_{L}e^{2}}{\lvert \mathbf{r} - \mathbf{R}_{L} \rve
 | $ V \$ | Electrostatic potential felt by the d-electron | Joules (J) |
 | $ Z_{L} \$ | Net charge of ligand L | Coulombs (C) |
 | $ e \$ | Elementary charge (1.602 × 10⁻¹⁹ C) | Coulombs (C) |
-| \( \mathbf{R}_{L} \) | Position vector of ligand L | Meters (m) |
-| \( \mathbf{r} \) | Position vector of the d-electron | Meters (m) |
-| \( N \) | Number of ligands | Dimensionless |
+| $\( \mathbf{R}_{L} \)$ | Position vector of ligand L | Meters (m) |
+| $\( \mathbf{r} \)$ | Position vector of the d-electron | Meters (m) |
+| $\( N \)$ | Number of ligands | Dimensionless |
 
 ### Why This is an Approximation
 
