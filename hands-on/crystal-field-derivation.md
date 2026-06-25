@@ -243,7 +243,7 @@ This mix of 3rd and 5th power rules is what makes luminescent materials (like th
 
 And that is all... simple right? Hopefully you all read this and be as traumatized as I was trying to break this down the best possible:)
 
-### References:
+## References:
 
 Song, Z., & Liu, Q. (2022). Basic crystal field theory—A simple and useful tool to understand the structure-property relationship in luminescent materials. *Optical Materials: X*, *16*, 100189. https://doi.org/10.1016/j.omx.2022.100189
 
