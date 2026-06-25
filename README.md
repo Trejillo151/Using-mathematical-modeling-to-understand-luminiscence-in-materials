@@ -19,7 +19,7 @@ The idea behind my research is to give a meaning to the theoretical models, whic
 
 For the motives behind my research and the interest in mathematical modeling in this area please look at the following video:
 
-(Inserta video con feedback de mis compañeros que aun no tengo aqui._.)
+https://youtu.be/zcNVh1p25Dc
 
 ## Part 1: What Are Molecular Symmetry Approximations? (Non-Chemist friendly)
 
