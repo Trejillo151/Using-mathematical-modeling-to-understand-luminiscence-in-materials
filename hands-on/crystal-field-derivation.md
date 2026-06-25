@@ -55,7 +55,7 @@ We want to separate these two things so we can handle them independently.
 
 ### The Solution: Laplace Expansion
 
-We can expand \(1/\lvert \mathbf{r} - \mathbf{R}_{L} \rvert\) as an infinite series of spherical harmonics:
+We can expand $\(1/\lvert \mathbf{r} - \mathbf{R}_{L} \rvert\)$ as an infinite series of spherical harmonics:
 
 $$\frac{1}{\lvert \mathbf{r} - \mathbf{R}_{L} \rvert} = \sum_{k = 0}^{\infty}\sum_{q = -k}^{k}\frac{4\pi}{2k + 1}\frac{r^k}{R_L^{k+1}} Y_k^{q*}(\theta,\phi)Y_k^{q}(\theta_L,\phi_L)$$
 
@@ -119,8 +119,8 @@ For d-electrons (which have angular momentum quantum number \( l = 2 \)), only c
 For an **octahedral complex**, the k=2 terms cancel out due to symmetry. Why?
 
 - In an octahedral complex, the ligands are at positions that are symmetric (like the faces of a cube)
-- These positions cause the \( B_{20} \) and \( B_{22} \) terms to sum to zero
-- This is a direct consequence of the octahedral point group (\( O_h \))
+- These positions cause the $\( B_{20} \) and \( B_{22} \)$ terms to sum to zero
+- This is a direct consequence of the octahedral point group $(\( O_h \))$
 
 ### The Surviving Term
 
@@ -152,9 +152,9 @@ $$\langle I^{N}\alpha SLM_{S}M_{L}|V|I^{N}\alpha^{\prime}S^{\prime}L^{\prime}M_{
 
 | Term | Meaning |
 |------|---------|
-| \( \begin{pmatrix} L & k & L^{\prime} \\ -M_{L} & q & M_{L}^{\prime} \end{pmatrix} \) | 3-j symbol (angular coupling, tabulated) |
-| \( \langle L\| C^k \| L\rangle \) | Reduced matrix element (constant for given L,k) |
-| \( \langle I^{N}\alpha SL\| U^{k}\| I^{N}\alpha^{\prime}S^{\prime}L^{\prime}\rangle \) | Reduced matrix element for the electron configuration |
+| $\( \begin{pmatrix} L & k & L^{\prime} \\ -M_{L} & q & M_{L}^{\prime} \end{pmatrix} \)$ | 3-j symbol (angular coupling, tabulated) |
+| $\( \langle L\| C^k \| L\rangle \) | Reduced matrix element (constant for given L,k)$ |
+| $\( \langle I^{N}\alpha SL\| U^{k}\| I^{N}\alpha^{\prime}S^{\prime}L^{\prime}\rangle \)$ | Reduced matrix element for the electron configuration |
 
 ### Reduced Matrix Elements for d-Orbitals
 
@@ -162,9 +162,9 @@ For d-orbitals (L=2), the reduced matrix elements are:
 
 | k value | \( \langle 2\| C^k \| 2\rangle \) |
 |---------|-----------------------------------|
-| k = 0 | \( \sqrt{5} \) |
-| k = 2 | \( -\sqrt{5} \) |
-| k = 4 | \( \sqrt{5} \) |
+| k = 0 | $\( \sqrt{5} \)$ |
+| k = 2 | $\( -\sqrt{5} \)$ |
+| k = 4 | $\( \sqrt{5} \)$ |
 
 ---
 
@@ -176,11 +176,11 @@ For an octahedral complex, the matrix elements of the crystal field potential fo
 
 | M_L | 2 | 1 | 0 | -1 | -2 |
 |-----|---|---|---|----|----|
-| **2** | \( \frac{2}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) |
-| **1** | 0 | \( -\frac{4}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) | 0 |
-| **0** | \( \frac{2}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) |
-| **-1** | 0 | \( \frac{2}{7}B_{40} \) | 0 | \( -\frac{4}{7}B_{40} \) | 0 |
-| **-2** | \( \frac{2}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) | 0 | \( \frac{2}{7}B_{40} \) |
+| **2** | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ |
+| **1** | 0 | $\( -\frac{4}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ | 0 |
+| **0** | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ |
+| **-1** | 0 | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( -\frac{4}{7}B_{40} \)$ | 0 |
+| **-2** | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ | 0 | $\( \frac{2}{7}B_{40} \)$ |
 
 ### Calculating the Splitting
 
@@ -198,18 +198,16 @@ Therefore:
 
 $$\Delta = \frac{2}{7}B_{40} - \left(-\frac{4}{7}B_{40}\right) = \frac{6}{7}B_{40} = \frac{2}{7}B_{40}$$
 
-**Wait, let me recalculate that carefully:**
-
 Actually, looking at the matrix more carefully:
 
-- The \( e_g \) orbitals (dₓ²₋ᵧ² and d₂²) have energy \( \frac{2}{7}B_{40} \)
-- The \( t_{2g} \) orbitals (dₓᵧ, dₓ₂, dᵧ₂) have energy \( -\frac{4}{7}B_{40} \)
+- The $\( e_g \)$ orbitals (dₓ²₋ᵧ² and d₂²) have energy $\( \frac{2}{7}B_{40} \)$
+- The $\( t_{2g} \)$ orbitals (dₓᵧ, dₓ₂, dᵧ₂) have energy $\( -\frac{4}{7}B_{40} \)$
 
 So:
 
 $$\Delta = \frac{2}{7}B_{40} - \left(-\frac{4}{7}B_{40}\right) = \frac{6}{7}B_{40}$$
 
-Since \( B_{40} \propto \frac{1}{R^5} \), we get:
+Since $\( B_{40} \propto \frac{1}{R^5} \)$, we get:
 
 $$\Delta \propto \frac{1}{R^5}$$
 
@@ -234,7 +232,7 @@ When symmetry is broken:
 
 $$B_{20} \neq 0 \quad \text{and} \quad B_{22} \neq 0$$
 
-These \( k=2 \) terms don't cancel out anymore, which adds a \( 1/R^3 \) dependence.
+These \( k=2 \) terms don't cancel out anymore, which adds a $\( 1/R^3 \)$ dependence.
 
 ### The General Formula for Low Symmetry
 
@@ -244,8 +242,8 @@ $$\Delta = A \cdot \frac{1}{R^3} + B \cdot \frac{1}{R^5}$$
 
 Where:
 - \( A \) and \( B \) are constants determined by the specific symmetry
-- The \( 1/R^3 \) term comes from \( B_{20} \) and \( B_{22} \)
-- The \( 1/R^5 \) term comes from \( B_{40} \)
+- The $\( 1/R^3 \)$ term comes from $\( B_{20} \)$ and $\( B_{22} \)$
+- The $\( 1/R^5 \)$ term comes from $\( B_{40} \)$
 
 ### Why This Matters
 
