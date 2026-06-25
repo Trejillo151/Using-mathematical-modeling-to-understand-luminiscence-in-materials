@@ -63,9 +63,9 @@ $$\frac{1}{\lvert \mathbf{r} - \mathbf{R}_{L} \rvert} = \sum_{k = 0}^{\infty}\su
 
 | Term | Meaning |
 |------|---------|
-| \( \frac{r^k}{R_L^{k+1}} \) | Radial part - depends on distances |
-| \( Y_k^{q*}(\theta,\phi)Y_k^{q}(\theta_L,\phi_L) \) | Angular part - depends on directions |
-| \( \frac{4\pi}{2k+1} \) | Normalization factor |
+| $\( \frac{r^k}{R_L^{k+1}} \)$ | Radial part - depends on distances |
+| $\( Y_k^{q*}(\theta,\phi)Y_k^{q}(\theta_L,\phi_L) \)$ | Angular part - depends on directions |
+| $\( \frac{4\pi}{2k+1} \)$ | Normalization factor |
 
 **Note:** This expansion is valid when \( r < R_L \) (the electron is closer to the metal than the ligands).
 
@@ -92,9 +92,9 @@ $$B_{kq} = \sum_{L=1}^{N} Z_L e^{2} \sqrt{\frac{4\pi}{2k+1}} \frac{\langle r^k \
 
 | Term | Meaning |
 |------|---------|
-| \( B_{kq} \) | Crystal field parameter containing ligand information |
-| \( \langle r^k \rangle \) | Radial expectation value for the d-electron |
-| \( \frac{1}{R_L^{k+1}} \) | Distance dependence (this is where the power rules come from!) |
+| $\( B_{kq} \)$ | Crystal field parameter containing ligand information |
+| $\( \langle r^k \rangle \)$ | Radial expectation value for the d-electron |
+| $\( \frac{1}{R_L^{k+1}} \)$ | Distance dependence (this is where the power rules come from!) |
 
 ### Quantum Mechanical Selection Rules
 
@@ -102,11 +102,11 @@ For d-electrons (which have angular momentum quantum number \( l = 2 \)), only c
 
 | k value | Name | Dependence | Status |
 |---------|------|------------|--------|
-| k = 0 | Monopole | \( 1/R^1 \) | Overall energy shift |
+| k = 0 | Monopole | $\( 1/R^1 \)$ | Overall energy shift |
 | k = 1 | Dipole | Forbidden | Cancels |
-| k = 2 | Quadrupole | \( 1/R^3 \) | Survives in some symmetries |
+| k = 2 | Quadrupole | $\( 1/R^3 \)$ | Survives in some symmetries |
 | k = 3 | Octupole | Forbidden | Cancels |
-| k = 4 | Hexadecapole | \( 1/R^5 \) | THE 5TH POWER RULE! |
+| k = 4 | Hexadecapole | $\( 1/R^5 \)$ | THE 5TH POWER RULE! |
 
 **Why this happens:** Quantum mechanics tells us that for l = 2 electrons, only even k values from 0 to 2l (which is 4) can contribute. Odd values are forbidden by selection rules.
 
