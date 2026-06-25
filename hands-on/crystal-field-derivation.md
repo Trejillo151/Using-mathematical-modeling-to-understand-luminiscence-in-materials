@@ -67,11 +67,11 @@ $$\frac{1}{\lvert \mathbf{r} - \mathbf{R}_{L} \rvert} = \sum_{k = 0}^{\infty}\su
 | $\( Y_k^{q*}(\theta,\phi)Y_k^{q}(\theta_L,\phi_L) \)$ | Angular part - depends on directions |
 | $\( \frac{4\pi}{2k+1} \)$ | Normalization factor |
 
-**Note:** This expansion is valid when \( r < R_L \) (the electron is closer to the metal than the ligands).
+**Note:** This expansion is valid when $\( r < R_L \)$ (the electron is closer to the metal than the ligands).
 
 ### What Are Spherical Harmonics?
 
-Spherical harmonics \( Y_k^q \) are special functions that describe how something varies over a sphere. They're the 3D equivalent of sine and cosine functions.
+Spherical harmonics $\( Y_k^q \)$ are special functions that describe how something varies over a sphere. They're the 3D equivalent of sine and cosine functions.
 
 **Key properties:**
 - They're **orthogonal** (different ones don't interfere)
@@ -84,7 +84,7 @@ Spherical harmonics \( Y_k^q \) are special functions that describe how somethin
 
 ### From Expansion to Parameters
 
-When we substitute the Laplace expansion back into the potential V, we can group terms into crystal field parameters \( B_{kq} \):
+When we substitute the Laplace expansion back into the potential V, we can group terms into crystal field parameters $\( B_{kq} \)$:
 
 $$B_{kq} = \sum_{L=1}^{N} Z_L e^{2} \sqrt{\frac{4\pi}{2k+1}} \frac{\langle r^k \rangle}{R_L^{k+1}} Y_k^{q}(\theta_L,\phi_L)$$
 
