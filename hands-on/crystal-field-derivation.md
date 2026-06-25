@@ -12,11 +12,11 @@ As mentioned before in the README.md file (Seriously... if you haven't read it l
 6. Matrix Elements for d-Orbitals
 7. When the Rule Breaks Down (Low Symmetry)
 
-## 1. The Point Charge Electrostatic Model (PCEM)
+## Part 1. The Point Charge Electrostatic Model (PCEM)
 
 ### The Basic Idea
 
-The Point Charge Electrostatic Model is the simplest approximation we can use to describe how ligands affect the electrons on a metal center. It treats each ligand as a point charge (like a tiny electron) and uses Coulomb's Law to calculate the electrostatic potential.
+The PCEM is the simplest approximation we can use to know how ligands affect the electrons on a metal center. It treats each ligand as a point charge (a tiny electron) and uses Coulomb's Law to calculate the electrostatic potential.
 
 ### The Potential Energy Equation
 
@@ -24,7 +24,7 @@ The electrostatic potential (V) felt by a d-electron at position **r** due to al
 
 $$V = \sum_{L = 1}^{N} \frac{Z_{L}e^{2}}{\lvert \mathbf{r} - \mathbf{R}_{L} \rvert}$$
 
-**Where each term means:**
+**Where:**
 
 | Symbol | Meaning | Units |
 |--------|---------|-------|
@@ -35,15 +35,13 @@ $$V = \sum_{L = 1}^{N} \frac{Z_{L}e^{2}}{\lvert \mathbf{r} - \mathbf{R}_{L} \rve
 | $\( \mathbf{r} \)$ | Position vector of the d-electron | Meters (m) |
 | $\( N \)$ | Number of ligands | Dimensionless |
 
-### Why This is an Approximation
+### Seen as an Approximation
 
-- **Good for:** Predicting patterns and relative energies
-- **Bad for:** Exact numerical values (can't predict exact splitting in cm⁻¹)
-- **The problem:** Real ligands are NOT point charges - they have their own electron clouds and complex shapes
+- **Works good for:** Predicting patterns and relative energies
+- **It sucks for:** Exact numerical values (can't predict exact splitting in cm⁻¹)
+- **Then what's the problem?** Real ligands are NOT point charges - they have their own electron clouds and complex shapes... so we expand.
 
----
-
-## 2. Expanding with Spherical Harmonics (Laplace Expansion)
+## Part 2. Expanding with Spherical Harmonics (Laplace Expansion)
 
 ### The Problem with Coulomb's Law
 
@@ -51,7 +49,7 @@ Coulomb's law as written above is difficult to solve because it mixes:
 - **Radial dependence** (how distance affects the potential)
 - **Angular dependence** (how direction affects the potential)
 
-We want to separate these two things so we can handle them independently.
+So we must handle them independently.
 
 ### The Solution: Laplace Expansion
 
@@ -78,9 +76,9 @@ Spherical harmonics $\( Y_k^q \)$ are special functions that describe how someth
 - They form a **complete basis** (we can build any angular function from them)
 - They're **eigenfunctions** of the angular part of Laplace's equation
 
----
+With that in mind NOW we can actually get the whole ligand information (parameters) to get our rule...
 
-## 3. The Crystal Field Parameters (Bₖᵩ)
+## Part 3. The Crystal Field Parameters (Bₖᵩ)
 
 ### From Expansion to Parameters
 
@@ -110,17 +108,20 @@ For d-electrons (which have angular momentum quantum number \( l = 2 \)), only c
 
 **Why this happens:** Quantum mechanics tells us that for l = 2 electrons, only even k values from 0 to 2l (which is 4) can contribute. Odd values are forbidden by selection rules.
 
----
+And here we are left with what we want...
 
-## 4. Why the 5th Power Rule Emerges
+## Part 4. Why the 5th Power Rule Emerges
 
-### The Key Insight
+For an **octahedral complex**, the k=2 terms cancel out due to symmetry. 
 
-For an **octahedral complex**, the k=2 terms cancel out due to symmetry. Why?
+Why?
 
 - In an octahedral complex, the ligands are at positions that are symmetric (like the faces of a cube)
 - These positions cause the $\( B_{20} \) and \( B_{22} \)$ terms to sum to zero
 - This is a direct consequence of the octahedral point group $(\( O_h \))$
+
+<img width="50%" height="50%" alt="clipboard_e876086846312c968a88dda5f4c22b53c" src="https://github.com/user-attachments/assets/59d85659-06f1-41aa-99cf-4ec211cfaf31" />
+
 
 ### The Surviving Term
 
@@ -128,15 +129,15 @@ We're left with the k=4 term as the dominant contributor:
 
 $$B_{40} = \sum_{L=1}^{N} Z_L e^{2} \sqrt{\frac{4\pi}{9}} \frac{\langle r^4 \rangle}{R_L^5} Y_4^{0}(\theta_L,\phi_L)$$
 
-**The crucial observation:**
+**And finally... we are left with the crucial observation:**
 
 $$B_{40} \propto \frac{1}{R^5}$$
 
-This is the **5th power rule**!
+This is the **5th power rule**
 
----
+And now the only thing remaining is to prove it...
 
-## 5. Calculating the Energy Splitting (Δ)
+## Part 5. Calculating the Energy Splitting (Δ)
 
 ### From Parameters to Energy
 
@@ -144,33 +145,29 @@ To get the actual energy splitting, we need to calculate the matrix elements of 
 
 ### The General Formula
 
-For an electron configuration \( l^N \) (N electrons in l orbitals), the matrix element is:
+For an electron configuration $\( l^N \)$ (N electrons in l orbitals), the matrix element is:
 
 $$\langle I^{N}\alpha SLM_{S}M_{L}|V|I^{N}\alpha^{\prime}S^{\prime}L^{\prime}M_{S}^{\prime}M_{L}^{\prime}\rangle = \sum_{k q}(-1)^{L - M_{L}}\begin{pmatrix} L & k & L^{\prime} \\ -M_{L} & q & M_{L}^{\prime} \end{pmatrix} \langle I\| C^{k}\| I\rangle \langle I^{N}\alpha SL\| U^{k}\| I^{N}\alpha^{\prime}S^{\prime}L^{\prime}\rangle B_{kq}\delta_{S M_{S},S^{\prime}M_{S}^{\prime}}$$
 
-**Breaking this down:**
+**But this is too complex to read so let's break this down:**
 
 | Term | Meaning |
 |------|---------|
-| $\( \begin{pmatrix} L & k & L^{\prime} \\ -M_{L} & q & M_{L}^{\prime} \end{pmatrix} \)$ | 3-j symbol (angular coupling, tabulated) |
-| $\( \langle L\| C^k \| L\rangle \) | Reduced matrix element (constant for given L,k)$ |
+| $(...)$ | 3-j symbol (angular coupling, tabulated) |
+| $\( \langle L\| C^k \| L\rangle \)$ | Reduced matrix element (constant for given L,k) |
 | $\( \langle I^{N}\alpha SL\| U^{k}\| I^{N}\alpha^{\prime}S^{\prime}L^{\prime}\rangle \)$ | Reduced matrix element for the electron configuration |
 
 ### Reduced Matrix Elements for d-Orbitals
 
 For d-orbitals (L=2), the reduced matrix elements are:
 
-| k value | \( \langle 2\| C^k \| 2\rangle \) |
+| k value | $\( \langle 2\| C^k \| 2\rangle \)$ |
 |---------|-----------------------------------|
 | k = 0 | $\( \sqrt{5} \)$ |
 | k = 2 | $\( -\sqrt{5} \)$ |
 | k = 4 | $\( \sqrt{5} \)$ |
 
----
-
-## 6. Matrix Elements for Octahedral Complexes
-
-### The Matrix for d-Orbitals in Octahedral Symmetry
+### What is the Matrix for d-Orbitals in Octahedral Symmetry
 
 For an octahedral complex, the matrix elements of the crystal field potential for the five d-orbitals are:
 
@@ -190,18 +187,10 @@ $$\Delta = E(e_g) - E(t_{2g})$$
 
 From the matrix:
 
-$$E(e_g) = \frac{2}{7}B_{40}$$
-
-$$E(t_{2g}) = -\frac{4}{7}B_{40}$$
-
-Therefore:
-
-$$\Delta = \frac{2}{7}B_{40} - \left(-\frac{4}{7}B_{40}\right) = \frac{6}{7}B_{40} = \frac{2}{7}B_{40}$$
-
-Actually, looking at the matrix more carefully:
-
 - The $\( e_g \)$ orbitals (dₓ²₋ᵧ² and d₂²) have energy $\( \frac{2}{7}B_{40} \)$
 - The $\( t_{2g} \)$ orbitals (dₓᵧ, dₓ₂, dᵧ₂) have energy $\( -\frac{4}{7}B_{40} \)$
+
+$$\Delta = \frac{2}{7}B_{40} - \left(-\frac{4}{7}B_{40}\right) = \frac{6}{7}B_{40} = \frac{2}{7}B_{40}$$
 
 So:
 
@@ -211,28 +200,25 @@ Since $\( B_{40} \propto \frac{1}{R^5} \)$, we get:
 
 $$\Delta \propto \frac{1}{R^5}$$
 
-**This is the 5th power rule!**
+**This is it... The 5th power rule**
 
----
+Is that it? No, this is just ideally... real symmetry must also address for imperfections and of course... failure.
 
-## 7. When the Rule Breaks Down (Low Symmetry)
+## Part 7. When the Rule Breaks Down (Low Symmetry)
 
-### The Problem with Real Molecules
+The 5th power rule works beautifully for perfect octahedral symmetry. But real molecules aren't perfect... Why?
 
-The 5th power rule works beautifully for perfect octahedral symmetry. But real molecules aren't perfect!
-
-**Common issues:**
 - Different ligand types (not all identical)
 - Different bond lengths (some shorter, some longer)
 - Distorted angles (not exactly 90°)
 
-### The Effect on the Math
-
-When symmetry is broken:
+And when the symmetry is broken...
 
 $$B_{20} \neq 0 \quad \text{and} \quad B_{22} \neq 0$$
 
 These \( k=2 \) terms don't cancel out anymore, which adds a $\( 1/R^3 \)$ dependence.
+
+And now finally we can adress for real life scenarios
 
 ### The General Formula for Low Symmetry
 
@@ -254,3 +240,15 @@ This mix of 3rd and 5th power rules is what makes luminescent materials (like th
 - The 5d orbital is sensitive to crystal field (unlike 4f)
 - In high symmetry: 5th power rule works
 - In low symmetry (garnets): Rule breaks down, mix of 3rd and 5th powers
+
+And that is all... simple right? Hopefully you all read this and be as traumatized as I was trying to break this down the best possible:)
+
+### References:
+
+Song, Z., & Liu, Q. (2022). Basic crystal field theory—A simple and useful tool to understand the structure-property relationship in luminescent materials. *Optical Materials: X*, *16*, 100189. https://doi.org/10.1016/j.omx.2022.100189
+
+*   **Why I used it:** The primary source for the crystal field theory framework and the explanation of how the 5th power rule works in different symmetries.
+
+Libretexts. (2021, October 20). 4.2: Point groups. Retrieved from https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)/04%3A_Symmetry_and_Group_Theory/4.02%3A_Point_Groups
+
+*   **Why I used it:** This reference helped me understand why the k=2 terms cancel out in octahedral symmetry. It's all about group theory and character tables.
